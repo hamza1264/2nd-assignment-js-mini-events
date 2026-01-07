@@ -1,0 +1,190 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: gray;
+}
+
+/*( 1st assignment counter ) start */
+
+#first-counter,
+#second-login-pg,
+#third-number-chack {
+    width: 99%;
+    height: 90vh;
+    /* border: 2px solid black; */
+    margin: 10px;
+    background-color: whitesmoke;
+    font-size: 25px;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: double underline;
+}
+
+#container {
+    width: 400px;
+    height: 500px;
+    /* border: 2px dashed black; */
+    border-radius: 50px;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+#count {
+    text-align: center;
+    font-size: 200px;
+    margin-top: 10px;
+}
+
+#button {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+#inc {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    /* margin-left: 100px; */
+    cursor: pointer;
+    background-color: green;
+    border-radius: 15px;
+}
+
+#dec {
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: red;
+    border-radius: 15px;
+}
+
+#reset {
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    margin: 20px 30px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+
+span {
+    font-size: 70px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ( 1st counter counter ) end */
+
+
+/* ( 2nd assignment log-in-form ) start */
+
+#login-box {
+    width: 300px;
+    height: 300px;
+    /* border: 2px dashed black; */
+    border-radius: 10px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(38, 37, 37, 0.9);
+    margin-top: 50px;
+    padding-top: 30px;
+}
+
+#login {
+    text-align: center;
+}
+
+#login-box input {
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+}
+
+#password-box {
+    position: relative;
+}
+
+#password-box span {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+
+#login-btn {
+    width: 90%;
+    padding: 5px;
+    background: #007bff;
+    color: white;
+    margin: 15px;
+    cursor: pointer;
+}
+
+/* ( 2nd assignment log-in-form ) end */
+
+/* ( 3rd assignment number chack ) start */
+
+#number-chack-box {
+    width: 500px;
+    height: 450px;
+    /* border: 2px dashed black; */
+    border-radius: 10px;
+    text-align: center;
+    margin: auto;
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+#number-chack {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 25px;
+
+}
+
+#number-chack-box input {
+    width: 80%;
+    padding: 10px;
+    font-size: 40px;
+    margin: 25px;
+}
+
+#number-chack-btn {
+    width: 30%;
+    padding: 5px;
+    font-size: 20px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+#number-output {
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+/* ( 3rd assignment number chack ) end */

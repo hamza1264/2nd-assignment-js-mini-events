@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>counter,login-pg,number-chack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ( 1st assignment counter ) start  -->
+
+    <section id="first-counter">
+        <h1>Counter:</h1>
+        <div id="container">
+            <div>
+                <h2 id="count">0</h2>
+            </div>
+            <div id="button">
+                <button id="inc" onclick="increment()"><span>+</span></button>
+                <button id="reset" onclick="reset()">Reset</button>
+                <button id="dec" onclick="decrement()"><span>-</span></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ( 1st assignment counter ) end -->
+
+    <!-- ( 2nd assignment log-in-form ) start  -->
+
+    <section id="second-login-pg">
+        <h1>login:</h1>
+        <form action="">
+            <div id="login-box">
+                <h2 id="login">Login</h2>
+
+                <input type="text" id="name" placeholder="Enter Your Name">
+                <input type="email" id="email" placeholder="Enter Your Email">
+
+                <div id="password-box">
+                    <input type="password" placeholder="Enter Your Password" id="password">
+                    <span onclick="showpassword()"><img src="./icon image/eye icon.jpg" alt="" width="30px"></span>
+                </div>
+                <button type="button" id="login-btn" onclick="loginform()">log in</button>
+            </div>
+        </form>
+
+    </section>
+
+    <!-- ( 2nd assignment log-in-form ) end  -->
+
+    <!-- ( 3rd assignment number chack ) start  -->
+
+    <section id="third-number-chack">
+        <h1>Number Chack:</h1>
+        <div id="number-chack-box">
+            <h2 id="number-chack">Number Chack:</h2>
+
+            <input type="number" placeholder="Enter Your Number" id="number-input">
+            <button id="number-chack-btn" onclick="numberchack()">Chack Number</button>
+            <h3 id="number-output">chack your number</h3>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- ( 3rd assignment number chack ) end  -->
+
+    <script src="index.js"></script>
+</body>
+
+</html>
