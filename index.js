@@ -60,7 +60,7 @@ function numberchack() {
   if (numberinput === "") {
     output.innerText = "Please enter a valid number";
     return;
-  }
+  } 
   switch (numberinput % 2) {
     case 0:
       output.innerText = numberinput + " is Even Number";
@@ -74,19 +74,4 @@ function numberchack() {
   }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ( 3rd assignment number chack ) end
